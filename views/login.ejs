@@ -7,10 +7,12 @@
   <title>Login</title>
 </head>
 <body>
-  <% include('./partials/nav.ejs') %>
-
+  <%- include('./partials/nav.ejs') %>
+  <% if (messages.error) {%> 
+    <%= messages.error %> 
+  <% } %> 
   <h1>Login to your account</h1>
-  <form action="/login">
+  <form action="/login" method="POST">
     <div>
       <label for="email">Email</label>
       <input type="email" name="email" id="email">
