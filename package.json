@@ -1,0 +1,19 @@
+{
+  "name": "try-passport-login",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/muhrizqiardi/try-passport-login.git",
+  "author": "Muhammad Rizqi Ardiansyah <rizqi.jpg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1"
+  }
+}
